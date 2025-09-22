@@ -1,12 +1,8 @@
 import React from 'react';
-import Counter from '../Counter/Counter';
+import Counter from '../Counter/Counter.jsx';
 
 function App() {
-    return (
-        <div>
-            <Counter />
-        </div>
-    );
+    return  <Counter />;
 };
 
 export default App;
